@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.texto-um{
+    font-family: "Roboto" ;
+}
+
+@font-face {
+    font-family: 'Aston Script';
+    src: url(../fonts/Aston\ Script.ttf);
+    font-weight: normal;
+    
+    /*se tiver o arquivo otf vc coloca todos*/
+    /*format ('opentype') - otf,
+    *format ('truetype') - ttf;
+    */
+}
+
+.titulo-principal{
+    font-family: 'Aston Script';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.texto-dois{
+    font-family: Montserrat;
+    font-style: italic;
+}
