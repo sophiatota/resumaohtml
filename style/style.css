@@ -19,8 +19,98 @@
     font-family: 'Aston Script';
 }
 
+@font-face {
+    font-family: 'Nahla Script';
+    src: url(../fonts/Nahla\ Script.otf);
+    font-weight: normal;
+    
+    /*se tiver o arquivo otf vc coloca todos*/
+    /*format ('opentype') - otf,
+    *format ('truetype') - ttf;
+    */
+}
+
+.titulo-menu{
+    font-family: 'Nahla Script';
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 .texto-dois{
     font-family: Montserrat;
     font-style: italic;
+}
+
+nav ul{
+    list-style: none;
+    height: 0;
+    overflow: hidden;
+}
+
+nav ul:hover{
+    height: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    height: 15px;
+    margin: 5px;
+    padding: 5px;
+
+    text-align: center;
+    background-color: aqua;
+    border-radius: 15px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+#menu-lista{
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+    transition: width 0.5s;
+}
+#lista-menu:hover #menu-lista{
+    height: 600px;
+    width: 100vh;
+}
+
+nav ul{
+    list-style: none;
+    height: 0;
+}
+
+nav ul:hover{
+    height: 100%;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+
+    background-color: beige;
+}
+
+#menu-lista{
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+#lista-menu:hover #menu-lista{
+    height: 600px;
+    width: 100vh;
 }
