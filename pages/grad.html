@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sophia Tota">
+    <meta name="description" content="Resumos das aulas de HTML e CSS">
+    <meta name="keywords" content="html5, css, tecnologia">
+    <link rel="stylesheet" href="../style/style.css">
+
+    <title>Resumo das aulas de HTML</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: red;
+            /*background-image: linear-gradient(90deg, red, blue);*/
+            background-image: linear-gradient(45deg, red 40%, blue, green, yellow, white, purple, orange 60%);
+            background-size: auto, 100%, 100%;
+            
+        }
+        
+        #gradiente{
+            background-color: purple;
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+            /*box-shadow: 30px -30px 20px yellow;*/
+            box-shadow: 30px 30px 10px 20px yellow, 
+                        -30px -30px 30px 30px red, 
+                        -30px 30px 15px 50px blue,
+                        30px -30px 15px 50px green;
+            /*esquerda -*/
+            /*direita +*/
+        }
+        h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 50px;
+            text-align: center;
+            text-shadow: -1px 1px 0 rgb(12, 12, 225),
+                        -2px 2px 0 rgb(202, 14, 14),
+                        -3px 3px 0 rgb(9, 244, 189),
+                        -4px 4px 0 rgb(107, 31, 3),
+                        -5px 5px 0 green;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./pages/fontes.html">Fontes</a>
+                </li>
+                <li>
+                    <a href="./pages/display.html">Display</a>
+                </li>
+                <li>
+                    <a href="./pages/box.html">Boxsizing</a>
+                </li>
+                <li>
+                    <a href="./pages/posi.html">Position</a>
+                </li>
+                <li>
+                    <a href="./pages/flow.html">Overflow</a>
+                </li>
+                <li>
+                    <a href="./pages/tab.html">Tabelas</a>
+                </li>
+                <li>
+                    <a href="./pages/border.html">Border Radius</a>
+                </li>
+                <li>
+                    <a href="./pages/shadow.html">Box Shadow</a>
+                </li>
+                <li>
+                    <a href="./pages/grad.html">Gradiente</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>CSS efeitos</h1>
+        <div id="gradiente"></div>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>
